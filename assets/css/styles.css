@@ -372,6 +372,12 @@ img{
     transition: .3s;
 }
 
+.button__icon__paper{
+    font-size: 0.5rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
 .button--white{
     background-color: #FFF;
     color: var(--first-color);
