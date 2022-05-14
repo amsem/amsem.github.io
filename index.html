@@ -619,34 +619,25 @@
 
             <div class="contact__container container grid">
                 <div>
-                    <form method="post" action="contact.php" class="contact__form grid">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="name" class="contact__label">Name</label>
-                                <input type="text" id="name" class="contact__input">
-                            </div>
-
-                            <div class="contact__content">
-                                <label for="email" class="contact__label">Email</label>
-                                <input type="email" id="email" class="contact__input">
-                            </div>
+                    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                        <label for="Name" class="fcf-label">Your name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
                         </div>
-
-                        <div class="contact__content">
-                            <label for="project-contact" class="contact__label">Project</label>
-                            <input type="text" id="project-contact" class="contact__input">
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Your email address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
                         </div>
-
-                        <div class="contact__content">
-                            <label for="message-contact" class="contact__label">Message</label>
-                            <textarea name="" cols="0" rows="7" id="message-contact" class="contact__input"></textarea>
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Your message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
                         </div>
-                        
-                        <div>
-                            <a href="#" class="button button--flex">Send Message</a>
-                            <i class="uil uil-message button__icon"></i>
-                        </div>
-                    </form>
+                    </div>
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+                    </div>
                 </div>
             </div>
 
