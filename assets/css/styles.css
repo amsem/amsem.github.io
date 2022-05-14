@@ -1131,7 +1131,7 @@ img{
         width: 350px;
     }
     .about__description{
-        text-align: initial;
+        text-align: center;
     }
     .about__info{
         justify-content: space-between;
