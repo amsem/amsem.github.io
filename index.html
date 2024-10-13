@@ -15,6 +15,15 @@
 
     <title>Said's Portfolio</title>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YSKTH4MRR6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YSKTH4MRR6');
+</script>
 <body>
 <!--==================== HEADER ====================-->
     <header class="header" id="header">
@@ -38,8 +47,13 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#newsletter" class="nav__link">
-                            <i class="uil uil-newspaper nav__icon"></i> Newsletter
+                        <a href="#certfication" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Certifications
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#resume" class="nav__link">
+                            <i class="uil uil-newspaper nav__icon"></i> Resume
                         </a>
                     </li>
                     <li class="nav__item">
@@ -212,9 +226,9 @@
                         <!--===============================QUALIFICATION 1 ===========================-->
                         <div class="qualification__data">
                             <div>
-                                <h3 class="qualification__title">Research in Computer Vision</h3>
+                                <h3 class="qualification__title">Research Intern</h3>
                                 <span class="qualification__subtitle">
-                                    <a href="https://www.uhu.es" target="_blank">Universidad de Huelva</a>
+                                    <a href="" target="_blank">Erasmus Plus & UHU</a>
                                 </span>
                                 <h5 class="qualification__location">Huelva, Spain</h5>
                                 <div class="qualification__calendar">
@@ -240,12 +254,12 @@
                             <div>
                                 <h3 class="qualification__title">Software Engineer</h3>
                                 <span class="qualification__subtitle">
-                                    <a href="https://fiver.com" target="_blank">Fiverr(Freelance)</a>
+                                    <a href="" target="_blank">Self Employed</a>
                                 </span>
                                 <h5 class="qualification__location">Remote(Worldwide)</h5>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    December 2022 - December 2023
+                                    September 2023 - December 2023
                                 </div>
                             </div>
                         </div>
@@ -268,14 +282,14 @@
                 <div class="swiper-wrapper">
                     <!--======================== PORTFOLIO 1 =============-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
+                        <img src="assets/img/logo.svg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">GoCHat</h3>
+                            <h3 class="portfolio__title">Verify Magically</h3>
                             <p class="portfolio__description">
-                                GoChat is a real-time chat application that allows users to communicate instantly
+                                Developed a robust email verification API for VerifyMagically.com, enabling bulk email verification with real-time status tracking, proxy integration, and dynamic CSV file generation for valid, invalid, and catch-all emails.
                             </p>
-                            <a href="https://github.com/amsem/GoChat" class="button button--flex button--small portfolio__button">
+                            <a href="https://www.verifymagically.com/" class="button button--flex button--small portfolio__button">
                                 More info
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -283,20 +297,21 @@
                     </div>
 
                     <!--======================== PORTFOLIO 2 =============-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
+<div class="portfolio__content grid swiper-slide">
+    <img src="assets/img/portfolio_ti_wisun.png" alt="TI Wi-SUN Containerized App" class="portfolio__img">
 
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">URL Shortener</h3>
-                            <p class="portfolio__description">
-                                the URL Shortener project! This application provides a simple and efficient way to shorten URLs using a base-62 encoding method. Inspired by the principles outlined in "System Design KMeans functions support auto-clustering using a method called depth difference (DeD). When a user sets 0 for the number of clusters, an optimal number of clusters for that dataset is determined.Interview: An Insiders Guide" by Alex Xu
-                            </p>
-                            <a href="https://github.com/amsem/url-shortner" class="button button--flex button--small portfolio__button">
-                                More info
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
+    <div class="portfolio__data">
+        <h3 class="portfolio__title">TI Wi-SUN Containerized App</h3>
+        <p class="portfolio__description">
+            Containerized a TI Wi-SUN application for seamless integration into IoTStack. Delivered a Dockerfile, comprehensive documentation, and local publishing instructions for streamlined setup and management, ensuring smooth deployment alongside existing containers.
+        </p>
+        <a href="https://github.com/TexasInstruments/ti-wisunfantund" class="button button--flex button--small portfolio__button">
+            More info
+            <i class="uil uil-arrow-right button__icon"></i>
+        </a>
+    </div>
+</div>
+
 
                     <!--======================== PORTFOLIO 3 =============-->
                     <div class="portfolio__content grid swiper-slide">
@@ -327,19 +342,93 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
+   
+        <!-- Clearfix -->
+<div style="clear: both;"></div>
 
-        
-        <!--==================== NEWSLETTER ====================-->
-       <!--  <section class="newsletter"  id="newsletter">
-            <h2 class="section__title">Newsletter</h2>
-            <span class="section__subtitle">Statistically significant topics</span>
-            <div style="text-align:center;">
-                <a href="z" class="button button--flex button--small portfolio__button">
-                    Subscribe
-                </a>
+        <!--==================== CERTIFICATION ====================-->
+        <section class="certfication" id="certfication">
+            <h2 class="section__title">Certifications</h2>
+            <span class="section__subtitle">Relevant Credentials</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--======================== CERTIFICATION 1 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/CERT1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">NVIDIA Certification</h3>
+                            <p class="portfolio__description">
+                                Fundamentals of Deep Learning, Issued by NVIDIA in November 2022.
+                            </p>
+                            <a href="https://learn.nvidia.com/certificates?id=52c93c87eacc4801a5bb2e2d15b8bd76" class="button button--flex button--small portfolio__button">
+                                More info
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--======================== CERTIFICATION 2 =============-->
+<div class="portfolio__content grid swiper-slide">
+    <img src="assets/img/CERT2.png" alt="Google Cloud Certification" class="portfolio__img">
+
+    <div class="portfolio__data">
+        <h3 class="portfolio__title">Google Cloud Certification</h3>
+        <p class="portfolio__description">
+            Perform Foundational Infrastructure Tasks in Google Cloud, Google Cloud Essentials, Implement Load Balancing on Compute Engine
+        </p>
+        <a href=" https://www.cloudskillsboost.google/public_profiles/3c9ee460-cfe4-44fd-9d29-60e1e64b31ec" class="button button--flex button--small portfolio__button">
+            More info
+            <i class="uil uil-arrow-right button__icon"></i>
+        </a>
+    </div>
+</div>
+
+
+                    <!--======================== CERTIFICATION3 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/CERT3.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Google</h3>
+                            <p class="portfolio__description">
+                                Using Python to Interact with the Operating System
+                            </p>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/XK977KLAF23T" class="button button--flex button--small portfolio__button">
+                                More info
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <!--============ Add Arrows =============-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!--============ Add Pagination =============-->
+                <div class="swiper-pagination"></div>
             </div>
         </section>
-        -->
+   
+        <!-- Clearfix -->
+<div style="clear: both;"></div>
+        
+        <!--==================== DOWNLOAD RESUME ====================-->
+<section class="resume" id="resume">
+    <h2 class="section__title">Resume</h2>
+    <span class="section__subtitle">Download my resume</span>
+    <div style="text-align:center;">
+        <a href="pdf/Said_Amine_cv.pdf" class="button button--flex button--small portfolio__button" target="_blank" download>
+            Resume
+        </a>
+    </div>
+</section>
         
         <!--==================== TESTIMONIAL ====================-->
         <section class="testimonial section">

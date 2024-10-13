@@ -1234,9 +1234,7 @@ img{
     .swiper-button-prev{
         left: -3.5rem;
     }
-    .swiper-button-next{
-        right: -3.5rem;
-    }
+   
     .swiper-container-horizontal >.swiper-pagination-bullets{
         bottom: -4.5rem;
     }
@@ -1244,4 +1242,15 @@ img{
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
     }
+}
+#resume {
+    padding-top: 100px; /* Creates space above the resume section */
+}
+
+.portfolio.section {
+    padding-bottom: 100px; /* Adds more space at the bottom of the portfolio */
+}
+
+.swiper-button-next, .swiper-button-prev {
+    bottom: 50px; /* Moves the navigation buttons upwards */
 }
